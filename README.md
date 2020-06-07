@@ -58,7 +58,7 @@
       <li style="list-style-type:square">Overall App Theme</li>
       <li style="list-style-type:square">Overall App Color</li>
       <li style="list-style-type:square">Window Bar Menus</li>
-      <li style="list-style-type:square">16x16 icon.ico or icon.png</li>
+      <li style="list-style-type:square">16x16 icon.png</li>
     </ul>
   </li>
 </ul>
