@@ -12,7 +12,7 @@
   <li style="list-style-type:square"><code>git clone</code> the project or <code>go get github.com/rootVIII/visipy/visipy</code>  and navigate to project root</li>
   <li style="list-style-type:square">run: <code>go run visipy/visipy.go</code></li>
   <li style="list-style-type:square">build: <code>go build visipy/visipy.go</code></li>
-  <li style="list-style-type:square">If you don't have Go or don't want to build the exe, there is an Ubuntu 64-bit Build in <a href="https://github.com/rootVIII/visipy/tree/master/bin">bin/</a> (Mac OS Build coming soon)</li>
+  <li style="list-style-type:square">If you don't have Go or don't want to build the exe, there is an Ubuntu 64-bit Build in <a href="https://github.com/rootVIII/visipy/tree/master/bin">bin/</a> (Mac OS Build is there too but not tested yet-UI may need adjustments)</li>
 </ul> 
 
 
@@ -77,14 +77,13 @@
 
 ###### Things to Note:
 <ul>
-  <li style="list-style-type:square">This project has been tested Linux (Ubuntu & Plasma desktop environments). It "should" run on Mac as well, but the GUI may or may not look proportionate until testing/updates can be done (the same goes for other Linux desktop environments).</li>
   <li style="list-style-type:square">When the current build is written to a <code>.py</code> file (current code build), a <code>.project</code> file (JSON) is also created in the same directory</li>
   <li style="list-style-type:square">The <code>.project</code> file may be discarded or saved to reload the project later (<b>do not</b> edit the JSON file)</li>
   <li style="list-style-type:square">The project should run with the Run button even if the settings you have are a bit off (or a lot off)</li>
   <li style="list-style-type:square">This does not mean however that your app is going to look as intended</li>
   <li style="list-style-type:square">The following link describes many widgets, and some of the options that are available: <a href="http://effbot.org/tkinterbook/tkinter-classes.htm" target="_blank">tkinter book</a></li>
   <li style="list-style-type:square">Hitting the run button after each widget addition, edit, or removal is a good way to double-check your GUI as well as examining the current build window each time code is updated</li>
-  <li style="list-style-type:square">The ultimate goal is to have the current build be runnable at all times, and to ease the creation of a Python GUI</li>
+  <li style="list-style-type:square">The current build/GUI should be runnable at all times, easing the creation of your application</li>
 </ul>
 
 
