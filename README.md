@@ -77,16 +77,14 @@
 
 ###### Things to Note:
 <ul>
-  <li>When the current build is written to a <code>.py</code> file (current code build), a <code>.project</code> file (JSON) is also created in the same directory</li>
-  <li>The <code>.project</code> file may be discarded or saved to reload the project later (<b>do not</b> edit the JSON file)</li>
-  <li>The project should run with the Run button even if the settings you have are a bit off (or a lot off)</li>
+  <li>The current GUI build can be written to a <code>.py</code> file at any time with the Write to File option</li>
+  <li>A <code>.project</code> file (JSON) will also be created in the same directory as your <code>.py</code> file</li>
+  <li>The <code>.project</code> file may be discarded or saved to reload the project later to continue working on the same project (<b>do not</b> edit the JSON file)</li>
   <li>The current build/GUI should be runnable at all times, easing the creation of your application</li>
   <li>This does not mean however that your app is going to look as intended</li>
-  <li>The following link describes many widgets, and some of the options that are available: <a href="http://effbot.org/tkinterbook/tkinter-classes.htm" target="_blank">tkinter book</a></li>
-  <li>If you are unsure what to put for a widget's attribute, put any value and try running Update. Allowable values will be suggested for you if something invalid is found.</li>
-  <li>Hitting the run button after each widget addition, edit, or removal is a good way to double-check your GUI as well as examining the current build window each time code is updated</li>
-
- 
+  <li>The following link describes many widgets, and their available attributes: <a href="http://effbot.org/tkinterbook/tkinter-classes.htm" target="_blank">tkinter book</a></li>
+  <li>If you are unsure what to put for a widget's attribute, put any value and try running Update; allowable values will be suggested for you if something invalid is found</li>
+  <li>Hitting the run button after each widget addition, edit, or removal is a good way to double-check your GUI along with examining the current build window each time code is updated</li>
 </ul>
 
 
