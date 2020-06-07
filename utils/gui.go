@@ -625,7 +625,8 @@ class VisiPy:
 				padx=21, bg='black', width=12, height=1),
 			'v12': Text(
 				self.master, fg='cyan', bg='black', borderwidth=0,
-				width=16, height=1, font=self.normal, insertontime=600,
+				highlightbackground='#012230', width=16, height=1,
+				font=self.normal, insertontime=600,
 				insertbackground='#33CC00', insertofftime=100),
 			'v12_label': Label(
 				self.master, fg=self.light, text='', anchor=W,
@@ -633,7 +634,8 @@ class VisiPy:
 				padx=21, bg='black', width=12, height=1),
 			'v13': Text(
 				self.master, fg='cyan', bg='black', borderwidth=0,
-				width=16, height=1, font=self.normal, insertontime=600,
+				highlightbackground='#012230', width=16, height=1,
+				font=self.normal, insertontime=600,
 				insertbackground='#33CC00', insertofftime=100),
 			'v13_label': Label(
 				self.master, fg=self.light, text='', anchor=W,
@@ -641,7 +643,8 @@ class VisiPy:
 				padx=21, bg='black', width=12, height=1),
 			'v14': Text(
 				self.master, fg='cyan', bg='black', borderwidth=0,
-				width=16, height=1, font=self.normal, insertontime=600,
+				highlightbackground='#012230', width=16, height=1,
+				font=self.normal, insertontime=600,
 				insertbackground='#33CC00', insertofftime=100),
 			'v14_label': Label(
 				self.master, fg=self.light, text='', anchor=W,
@@ -649,7 +652,8 @@ class VisiPy:
 				padx=21, bg='black', width=12, height=1),
 			'v15': Text(
 				self.master, fg='cyan', bg='black', borderwidth=0,
-				width=16, height=1, font=self.normal, insertontime=600,
+				highlightbackground='#012230', width=16, height=1,
+				font=self.normal, insertontime=600,
 				insertbackground='#33CC00', insertofftime=100),
 			'v15_label': Label(
 				self.master, fg=self.light, text='', anchor=W,
@@ -657,7 +661,8 @@ class VisiPy:
 				padx=21, bg='black', width=12, height=1),
 			'v16': Text(
 				self.master, fg='cyan', bg='black', borderwidth=0,
-				width=16, height=1, font=self.normal, insertontime=600,
+				highlightbackground='#012230', width=16, height=1,
+				font=self.normal, insertontime=600,
 				insertbackground='#33CC00', insertofftime=100),
 			'v16_label': Label(
 				self.master, fg=self.light, text='', anchor=W,
@@ -665,7 +670,8 @@ class VisiPy:
 				padx=21, bg='black', width=12, height=1),
 			'v17': Text(
 				self.master, fg='cyan', bg='black', borderwidth=0,
-				width=16, height=1, font=self.normal, insertontime=600,
+				highlightbackground='#012230', width=16, height=1,
+				font=self.normal, insertontime=600,
 				insertbackground='#33CC00', insertofftime=100),
 			'v17_label': Label(
 				self.master, fg=self.light, text='', anchor=W,
@@ -673,7 +679,8 @@ class VisiPy:
 				padx=21, bg='black', width=12, height=1),
 			'v18': Text(
 				self.master, fg='cyan', bg='black', borderwidth=0,
-				width=16, height=1, font=self.normal, insertontime=600,
+				highlightbackground='#012230', width=16, height=1,
+				font=self.normal, insertontime=600,
 				insertbackground='#33CC00', insertofftime=100),
 			'v18_label': Label(
 				self.master, fg=self.light, text='', anchor=W,
@@ -681,7 +688,8 @@ class VisiPy:
 				padx=21, bg='black', width=12, height=1),
 			'v19': Text(
 				self.master, fg='cyan', bg='black', borderwidth=0,
-				width=16, height=1, font=self.normal, insertontime=600,
+				highlightbackground='#012230', width=16, height=1,
+				font=self.normal, insertontime=600,
 				insertbackground='#33CC00', insertofftime=100),
 			'v19_label': Label(
 				self.master, fg=self.light, text='', anchor=W,
@@ -689,7 +697,8 @@ class VisiPy:
 				padx=21, bg='black', width=12, height=1),
 			'v20': Text(
 				self.master, fg='cyan', bg='black', borderwidth=0,
-				width=16, height=1, font=self.normal, insertontime=600,
+				highlightbackground='#012230', width=16, height=1,
+				font=self.normal, insertontime=600,
 				insertbackground='#33CC00', insertofftime=100),
 			'v20_label': Label(
 				self.master, fg=self.light, text='', anchor=W,
@@ -697,7 +706,8 @@ class VisiPy:
 				padx=21, bg='black', width=12, height=1),
 			'v21': Text(
 				self.master, fg='cyan', bg='black', borderwidth=0,
-				width=16, height=1, font=self.normal, insertontime=600,
+				highlightbackground='#012230', width=16, height=1,
+				font=self.normal, insertontime=600,
 				insertbackground='#33CC00', insertofftime=100),
 			'v21_label': Label(
 				self.master, fg=self.light, text='', anchor=W,
@@ -705,7 +715,8 @@ class VisiPy:
 				padx=21, bg='black', width=12, height=1),
 			'v22': Text(
 				self.master, fg='cyan', bg='black', borderwidth=0,
-				width=16, height=1, font=self.normal, insertontime=600,
+				highlightbackground='#012230', width=16, height=1,
+				font=self.normal, insertontime=600,
 				insertbackground='#33CC00', insertofftime=100),
 			'v22_label': Label(
 				self.master, fg=self.light, text='', anchor=W,
