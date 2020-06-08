@@ -9,9 +9,9 @@
 
 ###### Installation
  <ul>
-  <li><code>git clone</code> the project or <code>go get github.com/rootVIII/visipy/visipy</code>  and navigate to project root</li>
-  <li>run: <code>go run visipy/visipy.go</code></li>
-  <li>build: <code>go build visipy/visipy.go</code></li>
+  <li><code>git clone</code> the project or <code>go get github.com/rootVIII/visipy/visipy</code></li>
+  <li>run: <code>cd visipy/; go run visipy.go</code></li>
+  <li>build: <code>go build visipy.go</code></li>
   <li>If you don't have Go or don't want to build the exe, there is an Ubuntu 64-bit Build in <a href="https://github.com/rootVIII/visipy/tree/master/bin">bin/</a> (Mac OS Build is there too but not tested yet-UI may need adjustments)</li>
 </ul> 
 
