@@ -26,6 +26,13 @@
 
 
 
+###### Youtube Demo
+<ul>
+  <li>Also check out the <a href="https://youtu.be/i0pYqYdM1VQ" target="_blank">demo screencast</a> for example operation</li>
+</ul>
+
+
+
 ###### Visipy Features
 <ul>
   <li>Allow for rapid creation of a single Class, utilizing Tk() init and <i>N</i> widgets</li>
@@ -87,12 +94,6 @@
   <li>Hitting the run button after each widget addition, edit, or removal is a good way to double-check your GUI along with examining the current build window each time code is updated</li>
 </ul>
 
-
-
-###### Youtube Demo
-<ul>
-  <li>Also check out the <a href="https://youtu.be/i0pYqYdM1VQ" target="_blank">demo screencast</a> for example operation</li>
-</ul>
 
 
 <hr>
