@@ -89,11 +89,9 @@
 
 
 
-###### Try the tutorial
+###### Youtube Demo
 <ul>
-  <li>The included <a href="https://github.com/rootVIII/visipy/blob/master/tutorial.pdf" target="_blank">tutorial</a> is simple, but it can give a better feel for overall application usage</li>
-  <li>The tutorial example was made using Kubuntu. Therefore if the tutorial is followed on another system, some widget settings may need to be altered to produce the same result.</li>
-  <li>Also check out the <a href="https://github.com/rootVIII/visipy/blob/master/screencast.gif" target="_blank">screencast gif</a> for example operation (adding a button is demonstrated)</li>
+  <li>Also check out the <a href="https://youtu.be/i0pYqYdM1VQ" target="_blank">demo screencast</a> for example operation</li>
 </ul>
 
 
