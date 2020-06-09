@@ -20,6 +20,7 @@
 ###### Requirements
 <ul>
   <li><code>Python3</code> (must also be in your path)</li>
+  <li><code>sudo apt-get install python3-tk</code>(Linux only)</li>
   <li>Internet connection (only at application start-up)</li>
   <li>Linux or Mac OS (Not yet tested on Mac)</li>
 </ul>
