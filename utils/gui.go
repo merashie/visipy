@@ -447,7 +447,7 @@ class VisiPy:
 			highlightbackground='black',
 			activeforeground='yellow',
 			highlightthickness=2,
-			command=self.reset
+			command=self.clear
 		)
 		self.clear_button.grid(
 			row=18,
