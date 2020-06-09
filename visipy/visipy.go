@@ -38,11 +38,6 @@ import (
 	"github.com/rootVIII/visipy/utils"
 )
 
-/*
-	- rootVIII
-	- visipy 0.1
-*/
-
 func main() {
 	var bootstrap = &utils.Bootstrap{
 		IsPython3:  false,
