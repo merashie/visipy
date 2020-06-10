@@ -85,6 +85,8 @@
 
 ###### Things to Note:
 <ul>
+  <li>Values in Visipy's GUI that are left blank, or with a value of -1 will be ignored.</li>
+  <li>Most widgets require a minimum of the <code>row</code> and <code>col</code> attributes to be added into the code-build.</li>
   <li>The current GUI build can be written to a <code>.py</code> file at any time with the Write to File option</li>
   <li>A <code>.project</code> file (JSON) will also be created in the same directory as your <code>.py</code> file</li>
   <li>The <code>.project</code> file may be discarded or saved to reload the project later to continue working on the same project (<b>do not</b> edit the JSON file)</li>
