@@ -2088,7 +2088,7 @@ class VisiPy:
 			if key == 'justify':
 				val = value.upper()
 				if val not in ('LEFT', 'CENTER', 'RIGHT'):
-					return {'ERROR': {key: 'Use left, center, or right'}}
+					return {'ERROR': {key: 'Use LEFT, CENTER, or RIGHT'}}
 				widget_dict[key] = val
 				continue
 
