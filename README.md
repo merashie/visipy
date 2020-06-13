@@ -10,7 +10,7 @@
 ###### Installation
  <ul>
   <li><code>git clone</code> the project or <code>go get github.com/rootVIII/visipy/visipy</code></li>
-  <li>run: <code>cd visipy/; go run visipy.go</code></li>
+  <li>run: <code>go run visipy.go</code></li>
   <li>build: <code>go build visipy.go</code></li>
   <li>If you don't have Go or don't want to build the exe, there check the <a href="https://github.com/rootVIII/visipy/tree/master/bin">bin/</a> for Ubuntu and Mac builds</li>
   <li>Mac OS Build not tested yet-UI may need adjustments</li>
@@ -24,7 +24,7 @@
   <li><code>Python3</code> (must also be in your path)</li>
   <li><code>sudo apt-get install python3-tk</code>(Linux only)</li>
   <li>Internet connection (only at application start-up)</li>
-  <li>Linux or Mac OS (Not yet tested on Mac)</li>
+  <li>Linux, Windows10, or Mac OS (Not yet tested on Mac)</li>
   <li>If building the project yourself, Go 1.12 or higher is required</li>
 </ul>
 
