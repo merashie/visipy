@@ -12,7 +12,7 @@
   <li><code>git clone</code> the project or <code>go get github.com/rootVIII/visipy/visipy</code></li>
   <li>run: <code>go run visipy.go</code></li>
   <li>build: <code>go build visipy.go</code></li>
-  <li>If you don't have Go or don't want to build the exe, there check the <a href="https://github.com/rootVIII/visipy/tree/master/bin">bin/</a> for Ubuntu and Mac builds</li>
+  <li>If you don't have Golang installed or don't want to build the exe yourself, check the <a href="https://github.com/rootVIII/visipy/tree/master/bin">bin/</a> for Ubuntu and Mac builds</li>
   <li>Mac OS Build not tested yet-UI may need adjustments</li>
   <li>Check the <a href="https://github.com/rootVIII/visipyWIN10">Windows repository</a> for the Windows 10 version</li>
 </ul> 
