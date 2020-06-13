@@ -25,7 +25,7 @@
   <li><code>sudo apt-get install python3-tk</code>(Linux only)</li>
   <li>Internet connection (only at application start-up)</li>
   <li>Linux, Windows10, or Mac OS (Not yet tested on Mac)</li>
-  <li>If building the project yourself, Go 1.12 or higher is required</li>
+  <li>If building the project yourself, <b>Go 1.12</b> or higher is required</li>
 </ul>
 
 
