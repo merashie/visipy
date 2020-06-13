@@ -73,9 +73,9 @@ func main() {
 	for _, url := range urls {
 		go bootstrap.GetImgs(url, ch)
 	}
+	go bootstrap.CheckPython(ch)
 	go bootstrap.CreateProjectFile("project.json", bootstrap.GetInitialJSON(), ch)
 	go bootstrap.CreateProjectFile("gui.py", utils.GetGui(), ch)
-	go bootstrap.CheckPython(ch)
 	for i := 0; i < 6; i++ {
 		<-ch
 	}
