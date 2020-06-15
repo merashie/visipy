@@ -1,6 +1,7 @@
 package control
 
 // BSD 3-Clause License Copyright (c) 2020
+// v0.2
 
 import (
 	"bufio"

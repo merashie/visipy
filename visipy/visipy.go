@@ -1,6 +1,5 @@
 /*
 
-
 BSD 3-Clause License
 Copyright (c) 2020, James Colley All rights reserved. Redistribution
 and use in source and binary forms, with or without modification, are
@@ -25,6 +24,7 @@ THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT
 (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF
 THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 
+// v0.2
 
 */
 package main

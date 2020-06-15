@@ -3,6 +3,7 @@ package utils
 import "bytes"
 
 // BSD 3-Clause License Copyright (c) 2020
+// v0.2
 
 // GetGui gets the app's Python/Tkinter GUI front end.
 // Below code is Pycodestyle valid once written to disk
@@ -71,15 +72,19 @@ class VisiPy:
 
 		desktop = environ.get('DESKTOP_SESSION')
 		envs = {
-			'plasma': '1115x905',
-			'ubuntu': '1160x905'
+			'plasma': '1085x905',
+			'ubuntu': '1130x905'
 		}
 		if desktop is None or desktop == 'ubuntu' or desktop not in envs:
 			self.master.geometry(envs['ubuntu'])
 			self.listbox_width = 35
+			self.master.maxsize('1160', '905')
+			self.master.minsize('1130', '750')
 		elif desktop == 'plasma':
 			self.master.geometry(envs['plasma'])
 			self.listbox_width = 30
+			self.master.maxsize('1115', '905')
+			self.master.minsize('1085', '750')
 
 		self.icon = PhotoImage(file=rpath + 'icon.png')
 		master.iconphoto(False, self.icon)
@@ -522,6 +527,14 @@ class VisiPy:
 			sticky=E+W,
 			pady=5
 		)
+
+		self.master.grid_columnconfigure(1, weight=1)
+		self.master.grid_columnconfigure(2, weight=1)
+		self.master.grid_rowconfigure(1, weight=1)
+		self.master.grid_rowconfigure(2, weight=1)
+		self.master.grid_rowconfigure(16, weight=1)
+		self.master.grid_rowconfigure(17, weight=1)
+		self.master.grid_rowconfigure(19, weight=1)
 
 		self.populate_add_widgets()
 		self.populate_existing_widgets()
